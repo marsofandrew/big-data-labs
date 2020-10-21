@@ -1,10 +1,8 @@
 package lab2;
 
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
-
 import java.io.FileInputStream;
-import java.security.*;
-
+import java.security.KeyStore;
+import java.security.PrivateKey;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 

@@ -1,6 +1,5 @@
 package lab2;
 
-import junit.framework.TestCase;
 import org.bouncycastle.cms.CMSException;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,7 +9,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.*;
-import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;

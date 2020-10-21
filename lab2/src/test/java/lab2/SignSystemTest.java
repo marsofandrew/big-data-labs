@@ -1,21 +1,16 @@
 package lab2;
 
-import org.bouncycastle.cms.CMSException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.*;
-import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 
-import static lab2.EncryptSystem.decryptData;
-import static lab2.EncryptSystem.encryptData;
 import static lab2.SignSystem.signData;
 import static lab2.SignSystem.verifySignedData;
 import static lab2.Utils.prepareEncryption;
