@@ -3,7 +3,7 @@ package lab1;
 public final class Obfuscator {
 
     private static String SOURCE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 abcdefghijklmnopqrstuvwxyz";
-    private static String TARGET = "Q5A8ZWS0XEDC6RFVT9GBY4HNU3J2MI1KO7LP' )qop^hvgwm{kbacye}vz?,.`s";
+    private static String TARGET = "Q5A8ZWS0XEDC6RFVT9GBY4HNU3J2MI1KO7LP' )qop^hvgwm{kbacye}=z?,.`s";
 
     public static String obfuscate(String s) {
         char[] result = new char[s.length()];
